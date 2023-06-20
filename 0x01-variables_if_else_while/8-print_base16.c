@@ -3,17 +3,21 @@
 #include <stdio.h>
 /**
  * main is the entry point
- * Description: prints the alphabet in lowercase, followed by a new line.
+ * prints all single digit numbers of base 10 starting from 0
  * Return: always zero
  */
 int main(void)
 {
-	int n = 122;
+	int n;
+	int m;
 
-	while (n >= 97)
+	for (n = 48; n <= 57; n++)
 	{
 		putchar(n);
-		n--;
+	}
+	for (m = 97; m <= 102; m++)
+	{
+		putchar(m);
 	}
 	putchar('\n');
 	return (0);

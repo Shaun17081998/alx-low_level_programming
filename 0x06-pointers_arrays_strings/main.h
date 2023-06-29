@@ -19,5 +19,6 @@ void print_buffer(char *b, int size);
 char *_strncat(char *dest, char *src, int n);
 void print_numbers(void);
 int _putchar(char c);
+void rev_string(char *n);
 
 #endif
